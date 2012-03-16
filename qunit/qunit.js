@@ -1650,3 +1650,4 @@ if(steal.options.instrument){
 
 })
 .then('funcunit/browser/events.js')
+.then('funcunit/pavlov')
