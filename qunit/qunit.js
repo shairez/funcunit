@@ -1651,3 +1651,4 @@ if(steal.options.instrument){
 })
 .then('funcunit/browser/events.js')
 .then('funcunit/pavlov')
+.then('funcunit/pavlov/pavlov_new_assertions.js')
