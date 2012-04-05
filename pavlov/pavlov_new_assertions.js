@@ -12,5 +12,9 @@ QUnit.specify.extendAssertions({
     },
     sizeOf: function(actual, expected, message) {
         ok(actual.length == expected, message);
+    },
+    
+    isString: function(actual, message) {
+        ok(typeof actual === "string", message);
     }
 });
