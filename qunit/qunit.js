@@ -1650,5 +1650,19 @@ if(steal.options.instrument){
 
 })
 .then('funcunit/browser/events.js')
+
+.then('funcunit/sinon/sinon.js')
+.then('funcunit/sinon/sinon/spy.js')
+.then('funcunit/sinon/sinon/stub.js')
+.then('funcunit/sinon/sinon/mock.js')
+.then('funcunit/sinon/sinon/assert.js')
+.then('funcunit/sinon/sinon/test.js')
+.then('funcunit/sinon/sinon/test_case.js')
+.then('funcunit/sinon/sinon/sandbox.js')
+
+.then('funcunit/sinon/sinon/match.js')
+.then('funcunit/sinon/sinon/collection.js')
+//.then('funcunit/sinon/sinon-qunit.js')
 .then('funcunit/pavlov')
 .then('funcunit/pavlov/pavlov_new_assertions.js')
+
